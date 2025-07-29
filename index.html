@@ -3,100 +3,148 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fernando Reis | Consultor Estratégico</title>
+  <title>Controller Estratégico | Consultoria Financeira e Fiscal</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f8f9fa;
+      background-color: #f4f6f9;
+      color: #1a1a1a;
     }
     header {
-      background-color: #0a2540;
+      background: linear-gradient(90deg, #0a2540, #bfa140);
       color: white;
-      padding: 40px 20px;
+      padding: 60px 20px;
       text-align: center;
     }
     header h1 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin-bottom: 10px;
     }
     header p {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
     }
     .btn {
       display: inline-block;
-      background-color: #28a745;
-      color: white;
-      padding: 12px 20px;
-      margin-top: 20px;
-      border-radius: 6px;
+      background-color: #bfa140;
+      color: #fff;
+      padding: 14px 24px;
+      margin-top: 30px;
+      border-radius: 8px;
       text-decoration: none;
+      font-weight: bold;
+    }
+    nav {
+      background-color: #0a2540;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 15px 20px;
+      font-size: 1rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
     }
     section {
-      padding: 40px 20px;
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
     }
     .cards {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      gap: 24px;
+      margin-top: 30px;
     }
     .card {
       background: white;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 24px;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .card h3 {
+      color: #0a2540;
+    }
+    .logo {
+      max-width: 140px;
+      margin-bottom: 20px;
     }
     footer {
       background-color: #0a2540;
       color: white;
-      padding: 20px;
+      padding: 30px 20px;
       text-align: center;
+    }
+    .img-graphic {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Inteligência Fiscal e Estratégica</h1>
-    <p>Reduza custos, aumente o lucro e otimize sua operação empresarial</p>
-    <a href="https://wa.me/5531998108220" class="btn">Fale direto no WhatsApp</a>
+    <img src="https://via.placeholder.com/140x60?text=LOGO" alt="Logo Controller Estratégico" class="logo" />
+    <h1>Controller Estratégico</h1>
+    <p>Consultoria em Inteligência Fiscal, Contábil e Financeira para empresas que buscam crescimento e performance com segurança.</p>
+    <a href="https://wa.me/5531998108220" class="btn">Fale conosco pelo WhatsApp</a>
   </header>
 
-  <section>
-    <h2>Quem Sou</h2>
-    <p>Consultor com +10 anos de experiência em controladoria, reestruturação fiscal, contabilidade estratégica e planejamento tributário. Atuação voltada para empresas que buscam performance e retorno financeiro rápido.</p>
+  <nav>
+    <a href="#perfil">Perfil</a>
+    <a href="#solucoes">Soluções</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="perfil">
+    <h2>Perfil Profissional</h2>
+    <p>Com expertise consolidada em controladoria, planejamento tributário e reestruturação financeira, a Controller Estratégico atua lado a lado com empresas para entregar soluções práticas, eficientes e com retorno financeiro ágil. Aliamos rigor técnico com visão de negócio para impulsionar a saúde e o crescimento financeiro das organizações.</p>
+    <img src="https://via.placeholder.com/1000x400?text=Imagem+Institucional" alt="Gráfico institucional" class="img-graphic">
   </section>
 
-  <section>
+  <section id="solucoes">
     <h2>Soluções Estratégicas</h2>
     <div class="cards">
       <div class="card">
         <h3>Planejamento Tributário Inteligente</h3>
-        <p>Reduza a carga tributária de forma segura e eficiente.</p>
+        <p>Estratégias para reduzir legalmente a carga tributária e melhorar a rentabilidade.</p>
       </div>
       <div class="card">
         <h3>Reestruturação Contábil e Financeira</h3>
-        <p>Organize dados e aumente a clareza nas decisões.</p>
+        <p>Organização de dados contábeis e financeiros com foco em clareza e eficiência.</p>
       </div>
       <div class="card">
         <h3>Implantação de Controladoria</h3>
-        <p>Controles e relatórios que garantem eficiência operacional.</p>
+        <p>Implantação de rotinas e indicadores que otimizam a gestão de resultados.</p>
       </div>
       <div class="card">
-        <h3>Valuation e Indicadores Financeiros</h3>
-        <p>Saiba quanto sua empresa vale e como crescer.</p>
+        <h3>Valuation e Inteligência de Negócios</h3>
+        <p>Determinação de valor da empresa e análise de viabilidade estratégica.</p>
       </div>
     </div>
   </section>
 
-  <section>
-    <h2>Fale Comigo</h2>
-    <p>Envie uma mensagem pelo WhatsApp e receba uma análise personalizada.</p>
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Fale com nossa equipe e receba um diagnóstico gratuito.</p>
     <a href="https://wa.me/5531998108220" class="btn">WhatsApp: (31) 99810-8220</a>
   </section>
 
   <footer>
-    <p>&copy; 2025 Consultor Fernando Reis. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Controller Estratégico. Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
